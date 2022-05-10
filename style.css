@@ -3,7 +3,7 @@
     padding: 0;
     outline: none;
   }
-  
+/* ajustation */ 
 body {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
     height: 100vh;
@@ -24,10 +24,12 @@ form {
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
     /* effet sympa (dégradé)*/
-    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur();
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .3);
     text-align: center;
 }
-
+/* bienvenue */
 p {
     color: white;
     font-weight: 500;
@@ -36,7 +38,7 @@ p {
     margin-bottom: 60px;
     text-shadow: 2px 2px 4px (0, 0, 0, .6);
 }
-
+/* forgot your password */
 a {
     color: #ddd;
     text-decoration: none;
@@ -44,5 +46,16 @@ a {
     transition: all .3s;
 }
 a:hover {
-    text-shadow: 2px 2px 6px rgb(0,0,0);
+    text-shadow: 2px 2px 6px rgb(0,0);
+}
+/* formulaire */
+input {
+    background: transparent;
+    border-left: 1px solid rgba(255, 255, 255, .6);
+    border-top: 1px solid rgba(255, 255, 255, .6);
+    padding: 1rem;
+    width: 200px;
+    border-radius: 50px;
+    box-sizing: unset;
+    border-style: solid;
 }
