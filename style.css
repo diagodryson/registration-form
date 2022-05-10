@@ -34,10 +34,10 @@ form {
 p {
     color: white;
     font-weight: 500;
-    opacity: .6;
+    opacity: .3;
     font-size: 1.4rem;
     margin-bottom: 60px;
-    text-shadow: 2px 2px 4px (0, 0, 0, .6);
+    text-shadow: 2px 2px 4px (0, 0, 0, .2);
 }
 /* forgot your password */
 a {
@@ -66,5 +66,26 @@ input {
     color: white;
     font-weight: 200;
     text-shadow: text-shadow: 2px 2px 4px (0, 0, 0, .2);;
+    transition: all .3s;
+    margin-bottom: 15px;
+}
 
+/* texte formulaire */
+::placeholder {
+    color: white;
+}
+
+/* interaction texte formulaire */
+input:hover,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 4px 4px 60px 8px rgba(0,0,0, .2);
+}
+
+input[type="button"] {
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 150px;
 }
