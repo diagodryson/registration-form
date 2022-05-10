@@ -1,2 +1,2 @@
-# basic-registration-form
+# registration-form
 HTML &amp; CSS
