@@ -24,8 +24,9 @@ form {
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
     /* effet sympa (dégradé)*/
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur();
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
     box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .3);
     text-align: center;
 }
@@ -58,4 +59,12 @@ input {
     border-radius: 50px;
     box-sizing: unset;
     border-style: solid;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0, .2);
+    color: white;
+    font-weight: 200;
+    text-shadow: text-shadow: 2px 2px 4px (0, 0, 0, .2);;
+
 }
